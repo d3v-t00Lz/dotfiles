@@ -1,4 +1,4 @@
-# Jax's dotfiles
+# dotfiles
 
 It's a dotfiles repo, just like any other.
 
