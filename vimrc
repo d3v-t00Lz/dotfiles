@@ -26,7 +26,7 @@ set showtabline=2
 cnoreabbrev db w !diff -u % -
 
 " Rename tabs to show tab number.
-" (Based on http://stackoverflow.com/questions/5927952/whats-implementation-of-vims-default-tabline-function)
+" Based on http://stackoverflow.com/questions/5927952
 if exists("+showtabline")
     function! MyTabLine()
         let s = ''
