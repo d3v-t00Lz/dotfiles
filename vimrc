@@ -22,6 +22,9 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Always show the tab line
 set showtabline=2
 
+" Create the alias :db to diff the buffer with the file on disk
+cnoreabbrev db w !diff -u % -
+
 " Rename tabs to show tab number.
 " (Based on http://stackoverflow.com/questions/5927952/whats-implementation-of-vims-default-tabline-function)
 if exists("+showtabline")
