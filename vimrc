@@ -1,3 +1,10 @@
+" Syntax highlighting, for Mac OS X
+filetype plugin indent on
+syntax on
+
+" Disable swap file creation
+set noswapfile
+
 " Various tab options
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
