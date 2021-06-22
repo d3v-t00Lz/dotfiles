@@ -2,11 +2,17 @@
 filetype plugin indent on
 syntax on
 
+" Various tab options
+set tabstop=4 softtabstop=0 shiftwidth=4 smarttab
+
+" Use spaces instead of tabs
+autocmd BufNewFile,BufRead *.py set expandtab
+
+" Use tabs instead of spaces
+autocmd BufNewFile,BufRead *.go Makefile set noexpandtab
+
 " Disable swap file creation
 set noswapfile
-
-" Various tab options
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " Set an indicator at 80 character line length
 set colorcolumn=80
