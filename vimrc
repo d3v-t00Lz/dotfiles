@@ -6,10 +6,10 @@ syntax on
 set tabstop=4 softtabstop=0 shiftwidth=4 smarttab
 
 " Use spaces instead of tabs
-autocmd BufNewFile,BufRead *.py set expandtab
+autocmd BufNewFile,BufRead *.c,*.h,*.py set expandtab
 
 " Use tabs instead of spaces
-autocmd BufNewFile,BufRead *.go Makefile set noexpandtab
+autocmd BufNewFile,BufRead *.go,Makefile set noexpandtab
 
 " Disable swap file creation
 set noswapfile
