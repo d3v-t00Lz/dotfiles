@@ -3,7 +3,7 @@ filetype plugin indent on
 syntax on
 
 " Various tab options
-set tabstop=4 softtabstop=0 shiftwidth=4 smarttab
+set autoindent tabstop=4 softtabstop=0 shiftwidth=4 smarttab
 
 " Use spaces instead of tabs
 autocmd BufNewFile,BufRead *.c,*.h,*.py set expandtab
