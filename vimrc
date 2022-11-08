@@ -6,7 +6,7 @@ syntax on
 set autoindent tabstop=4 softtabstop=0 shiftwidth=4 smarttab
 
 " Use spaces instead of tabs
-autocmd BufNewFile,BufRead *.c,*.h,*.py set expandtab
+autocmd BufNewFile,BufRead * set expandtab
 
 " Use tabs instead of spaces
 autocmd BufNewFile,BufRead *.go,Makefile set noexpandtab
